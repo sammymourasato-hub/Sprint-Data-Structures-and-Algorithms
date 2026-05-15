@@ -113,16 +113,3 @@ exibir_relatorio()     →  saída final
 A `main()` nunca faz entrada, cálculo ou exibição diretamente — só orquestra.
 
 O `if __name__ == "__main__"` garante que o programa só executa ao rodar o arquivo diretamente, não quando importado como módulo por outro script.
-
----
-
-## Estrutura do código
-
-| Função | Responsabilidade |
-|---|---|
-| `nome_e_tipo_usuario()` | Coleta e valida nome e tipo do usuário |
-| `carregador_kw()` | Coleta e valida a potência do carregador |
-| `duracao_sessao()` | Coleta duração e converte para horas |
-| `calcular()` | Calcula energia e custo com tarifa diferenciada |
-| `exibir_relatorio()` | Exibe o relatório final formatado |
-| `main()` | Orquestra o fluxo completo do programa |
